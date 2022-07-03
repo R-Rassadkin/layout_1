@@ -1,0 +1,76 @@
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-image: url("./img/BG.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Finlandica", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu {
+  display: flex;
+  color: wheat;
+  align-items: center;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+}
+.menu__item {
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.menu__item--logo {
+  font-size: 36px;
+  font-weight: 600;
+  margin-right: 333px;
+}
+.menu__item--btn {
+  padding: 16px 46px 16px 46px;
+  background-color: #FFC814;
+  border-radius: 4px;
+}
+.menu__link {
+  color: white;
+}
+.menu__link--btn {
+  color: black;
+}
+
+.container {
+  padding: 0 15px 0 15px;
+  max-width: 1380px;
+  margin: 0 auto;
+}
+
+.header-content {
+  color: rgb(255, 255, 255);
+}
+.header-content__title {
+  margin-top: 118px;
+  max-width: 488px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+}
+.header-content__text {
+  max-width: 563px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
